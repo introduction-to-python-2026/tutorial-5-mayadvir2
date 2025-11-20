@@ -2,7 +2,14 @@
 import matplotlib.pyplot as plt
 
 def build_histogram(data):
-    pass # Replace the `pass` with your code
+    d = {}
+    for i in data:
+      if i in d.keys():
+        d[i] += 1
+      else:
+        d[i] = 1
+
+    return d
 
 def plot_histogram(histogram):
     x_values = list(histogram.keys())

@@ -1,4 +1,5 @@
 # Q: Write an import statement that imports the function pyplot from the module matplotlib and renames it to plt.
+import matplotlib.pyplot as plt
 
 def build_histogram(data):
     pass # Replace the `pass` with your code
